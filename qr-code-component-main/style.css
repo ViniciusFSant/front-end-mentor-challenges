@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    height: 100vh;
+}
+.page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #d5e1ef;
+    height: 100%;
+}
+.qr-code-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+.qr-code {
+    box-shadow: 1px 1px 3px black;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+    max-width: 320px;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+.qr-code-img {
+    background-image: url(images/image-qr-code.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-self: center;
+    width: 100%;
+    height: 280px;
+    cursor: pointer;
+}
+.qr-code h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #1F314F;
+    padding: 10px 0;
+    text-align: center;
+}
+.qr-code p {
+    color: #7D889E;
+    text-align: center;
+    padding: 10px 0;
+}
+footer {
+    font-size: 10px; text-align: center;
+}
+footer a {
+    color: hsl(228, 45%, 44%); 
+}
+
+
+/* BREAKPOINTS */
+
+@media (max-width: 320px)  {
+    .qr-code-img {
+        height: 50vh;
+    }
+    .qr-code h1 {
+        font-size: 1.2rem;
+    }
+    body {
+        font-size: 10px;
+    }
+}
