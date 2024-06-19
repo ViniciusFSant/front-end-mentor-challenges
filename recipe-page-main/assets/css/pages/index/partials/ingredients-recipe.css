@@ -1,0 +1,12 @@
+.ingredients-recipe {
+    padding: 3rem 0;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.ingredients-recipe ul {
+    padding: 2rem;
+}
+
+.ingredients-recipe ul li {
+    padding: 1rem;
+}

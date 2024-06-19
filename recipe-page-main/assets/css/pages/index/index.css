@@ -1,0 +1,21 @@
+@import 'partials/intro-recipe.css';
+@import 'partials/ingredients-recipe.css';
+@import 'partials/instructions-recipe.css';
+@import 'partials/nutrition-recipe.css';
+@import '/assets/css/global/elements.css';
+@import '/assets/css/global/variables.css';
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.content-container {
+    margin: 2rem auto;
+    max-width: 70rem;    
+    background-color: var(--white);
+    padding: 4rem;
+    border-radius: 3rem;
+}
+
+body {
+    background-color: var(--eggshell);
+    color: var(--dark-charcoal);
+}
