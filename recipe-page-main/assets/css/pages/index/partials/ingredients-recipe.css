@@ -1,0 +1,17 @@
+.ingredients-recipe {
+    padding: 5rem 0 1rem 0;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.ingredients-recipe h2 {
+    font-size: 2.5rem;
+}
+
+.ingredients-recipe ul {
+    list-style-position: inside;
+    padding: 2rem 0;
+}
+
+.ingredients-recipe ul li {
+    padding: 1rem 0;
+}

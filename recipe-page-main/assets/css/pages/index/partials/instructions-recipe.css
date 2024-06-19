@@ -1,0 +1,12 @@
+.instructions-recipe {
+    padding: 4rem 0 1rem 0;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.instructions-recipe ol {
+    list-style-position: inside;
+}
+
+.instructions-recipe ol li {
+    padding: 1rem 0;
+}
