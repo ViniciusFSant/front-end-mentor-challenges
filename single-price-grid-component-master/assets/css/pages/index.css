@@ -18,6 +18,7 @@
     width: 100%;
     padding: 4rem 4rem;
     background-color: white;
+    border-radius: 2rem 2rem 0 0;
 }
 
 .subscribe-title h1 {
@@ -45,6 +46,7 @@
     background-color: var(--cyan);
     width: 50%;
     padding: 2rem 4rem;
+    border-radius: 0 0 0 2rem;
 }
 
 .subscribe-action h2 {
@@ -85,6 +87,7 @@
     background-color: #4abebd;
     width: 50%;
     padding: 2rem 4rem;
+    border-radius: 0 0 2rem 0;
 }
 
 .subscribe-information h2 {
@@ -112,16 +115,26 @@
 }
 
 @media (max-width: 767px) {
+    body {
+        padding: 8rem 2rem;
+    }
+
     .main-container {
         width: 50rem;
     }
 
+    .subscribe-title {
+        border-radius: 0;
+    }
+
     .subscribe-action {
         width: 100%;
+        border-radius: 0;
     }
 
     .subscribe-information {
         width: 100%;
+        border-radius: 0;
     }
 
     .footer-desktop {
@@ -140,4 +153,15 @@
         text-decoration: none;
         color: var(--light-gray);
     }
+}
+
+@media (max-width: 330px) {
+    
+    .subscribe-action span:nth-of-type(2) {
+        position: absolute;
+        left: 12rem;
+        top: 12rem;
+        color: var(--light-gray);
+    }   
+
 }
