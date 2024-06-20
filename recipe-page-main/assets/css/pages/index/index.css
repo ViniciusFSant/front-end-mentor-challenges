@@ -1,9 +1,9 @@
-@import '/recipe-page-main/assets/css/pages/index/partials/instructions-recipe.css';
-@import '/recipe-page-main/assets/css/pages/index/partials/intro-recipe.css';
-@import '/recipe-page-main/assets/css/pages/index/partials/ingredients-recipe.css';
-@import '/recipe-page-main/assets/css/pages/index/partials/nutrition-recipe.css';
-@import '/recipe-page-main/assets/css/global/elements.css';
+@import './partials/intro-recipe.css';
+@import './partials/ingredients-recipe.css';
+@import './partials/instructions-recipe.css';
+@import './partials/nutrition-recipe.css';
 @import '/recipe-page-main/assets/css/global/variables.css';
+@import '/recipe-page-main/assets/css/global/elements.css';
 
 .content-container {
     margin: 2rem auto;
