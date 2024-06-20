@@ -11,6 +11,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: var(--font-outfit);
+    color: var(--dark-charcoal);
 }
 
 h1, h2, h3 {
@@ -39,4 +40,15 @@ ul, ol {
 
 span {
     padding-left: 0.8rem;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--dark-charcoal);
+}
+
+.attribution a {
+    text-decoration: none;
+    color: var(--dark-raspberry);
 }

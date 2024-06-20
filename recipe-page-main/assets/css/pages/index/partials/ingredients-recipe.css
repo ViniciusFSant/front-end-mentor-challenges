@@ -10,3 +10,9 @@
 .ingredients-recipe ul li {
     padding: 1rem;
 }
+
+@media (max-width: 767px) {
+    .ingredients-recipe h2, .ingredients-recipe ul {
+        padding: 2rem;
+    }    
+}
