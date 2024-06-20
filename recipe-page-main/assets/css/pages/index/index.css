@@ -1,0 +1,42 @@
+@import '/recipe-page-main/assets/css/pages/index/partials/instructions-recipe.css';
+@import '/recipe-page-main/assets/css/pages/index/partials/intro-recipe.css';
+@import '/recipe-page-main/assets/css/pages/index/partials/ingredients-recipe.css';
+@import '/recipe-page-main/assets/css/pages/index/partials/nutrition-recipe.css';
+@import '/recipe-page-main/assets/css/global/elements.css';
+@import '/recipe-page-main/assets/css/global/variables.css';
+
+.content-container {
+    margin: 2rem auto;
+    max-width: 70rem;    
+    background-color: var(--white);
+    padding: 4rem;
+    border-radius: 3rem;
+}
+
+body {
+    background-color: var(--eggshell);
+    color: var(--dark-charcoal);
+}
+
+.footer-mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .content-container {
+        width: 100%;
+        margin: 0 auto;
+        border-radius: 0;
+        padding: 0;
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+    .footer-mobile {
+        width: 80%;
+        padding: 0 1rem;
+        display: block;
+        margin-top: 2rem;
+    }
+}

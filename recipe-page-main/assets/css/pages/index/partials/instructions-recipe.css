@@ -1,0 +1,34 @@
+.instructions-recipe {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--light-grey);
+}
+
+.instructions-recipe li::marker {
+    color: var(--nutmeg);
+}
+
+.instructions-recipe ol {
+    padding: 2rem 0 1rem 0;
+}
+
+.instructions-recipe li {
+    text-align: justify;
+    list-style-position: outside;
+    padding: 1rem 0 1rem 1.5rem;
+}
+
+.list-container {
+    max-width: 100%;
+    width: 65rem;
+}
+
+@media (max-width: 767px) {
+    .instructions-recipe h2 {
+        padding: 2rem;
+    }    
+    
+    .instructions-recipe .list-container {
+        width: 80%;
+        padding: 1rem;
+    }
+}

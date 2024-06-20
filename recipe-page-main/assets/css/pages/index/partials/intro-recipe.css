@@ -1,0 +1,64 @@
+.intro-recipe-img {
+    width: 100%;
+    height: 30rem;
+    border-radius: 2rem;
+    background: url(/recipe-page-main/assets/images/image-omelette.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+.intro-recipe h1 {
+    padding: 1rem 0;
+    font-weight: bold;
+}
+
+.intro-recipe p {
+    padding: 1rem 0 4rem 0;
+}
+
+.preparation-container {
+    background-color: var(--rose-white);
+    padding: 2rem 0;
+    border-radius: 2rem;
+}
+
+.preparation-container h3, .preparation-container ul {
+    padding-left: 4rem;
+}
+
+.preparation-container li {
+    padding: 1rem;
+}
+
+.preparation-container h3 {
+    color: var(--dark-raspberry);
+    padding-bottom: 1.5rem;
+}
+
+.preparation-container span {
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .intro-recipe h1 {
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    .preparation-container h3, .preparation-container ul {
+        padding-left: 2rem;
+    }
+    
+    .intro-recipe-img {
+        height: 16rem;
+        padding: 0;
+        border-radius: 0;
+    }
+
+    .intro-recipe h1, .intro-recipe p, .preparation-container {
+        padding: 2rem;
+    }
+
+    .preparation-container {
+        width: 80%;
+    }
+}
