@@ -1,11 +1,12 @@
-@import 'partials/intro-recipe.css';
-@import 'partials/ingredients-recipe.css';
-@import 'partials/instructions-recipe.css';
-@import 'partials/nutrition-recipe.css';
-@import '/assets/css/global/elements.css';
-@import '/assets/css/global/variables.css';
+@import '/recipe-page-main/assets/css/pages/index/partials/instructions-recipe.css';
+@import '/recipe-page-main/assets/css/pages/index/partials/intro-recipe.css';
+@import '/recipe-page-main/assets/css/pages/index/partials/ingredients-recipe.css';
+@import '/recipe-page-main/assets/css/pages/index/partials/nutrition-recipe.css';
+@import '/recipe-page-main/assets/css/global/elements.css';
+@import '/recipe-page-main/assets/css/global/variables.css';
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 
 .content-container {
     margin: 2rem auto;
