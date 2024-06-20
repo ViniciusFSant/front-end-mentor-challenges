@@ -1,0 +1,143 @@
+.main-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 70rem;
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    min-height: 100%;
+    min-height: 100vh;
+}
+
+.subscribe-title {
+    width: 100%;
+    padding: 4rem 4rem;
+    background-color: white;
+}
+
+.subscribe-title h1 {
+    color: var(--cyan);
+    padding: 1rem 0 1rem 0;
+}
+
+.subscribe-title p {
+    padding: 1rem 0 0 0;
+    line-height: 2.2rem;
+}
+
+.subscribe-title p:nth-of-type(1) {
+    color: var(--bright-yellow);
+}
+
+.subscribe-title p:nth-of-type(2) {
+    color: var(--grayish-blue);
+}
+
+/* ----------------------------------------------------- */
+
+.subscribe-action {
+    position: relative;
+    background-color: var(--cyan);
+    width: 50%;
+    padding: 2rem 4rem;
+}
+
+.subscribe-action h2 {
+    padding: 1rem 0;
+}
+
+.subscribe-action p {
+    padding: 1rem 0;
+}
+
+.subscribe-action span:nth-of-type(1) {
+    font-size: 4rem;
+}
+
+.subscribe-action span:nth-of-type(2) {
+    position: absolute;
+    left: 12rem;
+    top: 9rem;
+    color: var(--light-gray);
+}
+
+.subscribe-action button {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1.2rem;
+    background-color: var(--bright-yellow);
+    border: 0;
+    border-radius: 1rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1.8rem;
+}
+
+
+/* ------------------------------------------------------- */
+
+.subscribe-information {
+    background-color: #4abebd;
+    width: 50%;
+    padding: 2rem 4rem;
+}
+
+.subscribe-information h2 {
+    padding: 2rem 0;
+}
+
+.subscribe-information p {
+    line-height: 2.5rem;
+}
+
+/* --------------------------------------------------------- */
+
+.footer-desktop {
+    text-align: center;
+    color: var(--cyan);
+}
+
+.footer-desktop a {
+    text-decoration: none;
+    color: var(--grayish-blue);
+}
+
+.footer-mobile {
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .main-container {
+        width: 50rem;
+    }
+
+    .subscribe-action {
+        width: 100%;
+    }
+
+    .subscribe-information {
+        width: 100%;
+    }
+
+    .footer-desktop {
+        display: none;
+    }
+
+    .footer-mobile {
+        display: block;
+        padding-top: 6rem;
+        font-size: 1.2rem;
+        text-align: center;
+        color: var(--bright-yellow);
+    }
+
+    .footer-mobile a {
+        text-decoration: none;
+        color: var(--light-gray);
+    }
+}

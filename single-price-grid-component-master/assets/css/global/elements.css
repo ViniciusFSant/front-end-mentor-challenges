@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: var(--font-karla);
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--light-gray);
+    color: white;
+}
